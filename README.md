@@ -14,6 +14,9 @@ pythonanywhere 환경구축
 - workon venvFlaskWebEconomy
 4. 깃을 가져온다.
 - git clone https://github.com/kjky12/FlaskWebEconomy.git
-5. 파이썬 패키지를 설치한다.
+5. 경로를 이동하고 Git update를 수행한다.
+- cd FlaskWebEconomy
+- git pull- 
+6. 파이썬 패키지를 설치한다.
 - pip install -r requirements.txt
-6. 
+ 
