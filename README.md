@@ -30,3 +30,11 @@ git clone : https://github.com/jainamoswal/Flask-Example.git
 
 pythonanywhere 참고
 https://wings2pc.tistory.com/entry/%EC%9B%B9-%EC%95%B1%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-Python-Flask-Pythonanywhere-%EB%B0%B0%ED%8F%AC-%ED%95%98%EA%B8%B0
+
+#NaverMap관련
+사용량
+https://console.ncloud.com/naver-service/application
+공식Doc
+https://guide.ncloud-docs.com/docs/ko/naveropenapiv3-maps-web-sdk-v3-start
+참고 Git
+https://github.com/navermaps/maps.js.ncp/tree/master/examples/map
