@@ -5,13 +5,17 @@
 
 # Import Libraries 
 from app import app
+from flask import Flask, render_template
 
 # Define route "/" & "/<name>"
 @app.route("/")
 @app.route("/<name>")
 def index(name='Anonymous'):
-    return f"Hello {name}!!"
+    #return f"Hello {name}!!"
+    return render_template('simple.html', as_attachment=True)
 
+    #return render_template('index.html', as_attachment=True)
+    #return render_template("templates\\index.html")
 
 @app.route("/hello/")
 def hello_flask():

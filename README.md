@@ -1,8 +1,12 @@
 # FlaskWebEconomy
 
+#Runtime : Python 3.10.5
+
 python.exe -m pip install --upgrade pip
 pip install Flask
 pip install importlib
+pip install --upgrade PublicDataReader
+
 
 pip freeze > requirements.txt
 

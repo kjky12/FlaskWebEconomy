@@ -1,6 +1,6 @@
 # coding = utf-8
 
-from flask import Flask
+from flask import Flask, render_template
 # Import the __init__.py from modules which had imported all files from the folder.
 
 
